@@ -1,5 +1,5 @@
 from django.conf import settings
-from django.conf.urls.defaults import include, patterns
+from django.conf.urls import url, include, patterns
 from django.contrib.auth import login, authenticate
 from django.template import Template
 from django.utils.encoding import smart_unicode
